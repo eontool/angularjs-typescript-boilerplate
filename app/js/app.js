@@ -19,6 +19,7 @@ class mainCtrl {
         this.$scope = $scope;
         this.$http = $http;
         this.main();
+        $scope.myData = "My data string";
         $scope.submitForm = function () {
             let url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson";
             $http.get(url).then((response) => {
@@ -38,7 +39,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = mainCtrl;
 mainCtrl.$inject = [
     '$scope',
-    "$http"
+    "$http",
 ];
 
 },{}]},{},[1]);

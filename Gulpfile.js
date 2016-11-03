@@ -2,7 +2,7 @@ let gulp = require('gulp'),
     connect = require('gulp-connect'),
     concat = require('gulp-concat'),
     browserify = require('browserify'),
-    source = require('vinyl-source-stream'),
+    source = require('vinyl-source-stream');
     
 const vendors = ['angular', 'jquery'];
 
