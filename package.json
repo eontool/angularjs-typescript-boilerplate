@@ -1,0 +1,32 @@
+{
+  "name": "angularjs-typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eontool/angularjs-typescript-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eontool/angularjs-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/eontool/angularjs-typescript-boilerplate#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.5.19",
+    "@types/jquery": "^2.0.33",
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
